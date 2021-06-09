@@ -2,6 +2,7 @@ body {
   color: #000;
   font-family: "Playfair Display";
   font-weight: 900;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -20,21 +21,21 @@ h2{
 
 /* Nav Bar */
 .header {
-  background-color: #000;
-  color: #fff;
+  color: black;
   padding: 15px 25px;
 }
 
 .navbar-brand {
   font-weight: 800;
   font-size: 36px;
-  line-height: 48px
+  line-height: 48px;
+  color: black !important;
 }
 
 .navbar-nav {
   font-family: "Sofia Pro";
   font-weight: 400;
-  font-size: 18px
+  font-size: 18px;
 }
 
 .nav-item {
@@ -43,7 +44,13 @@ h2{
 
 .nav-link {
   margin: 0 50px;
+  color: black !important;
 }
+
+/* .navbar {
+  background-color: #fff;
+  color: black;
+} */
 
 /* title */
 .Levelup-header {
